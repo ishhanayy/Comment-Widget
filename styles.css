@@ -1,0 +1,65 @@
+.all-comments:not(:first-child){
+    margin-left: 4rem;
+}
+
+.card{
+    padding:10px;
+    height: auto;
+    box-shadow: 2px 4px 8px 0 rgb(113, 88, 104);
+    background-color: rgb(236, 236, 236);
+    margin-top: 10px;
+}
+
+.text{
+    display: block;
+}
+
+.reply{
+    display: block;
+    cursor: pointer;
+    color: purple;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.delete{
+    color: rgb(84, 33, 33);
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.like{
+    color: rgb(225, 91, 113);
+    cursor: pointer;
+}
+
+.like-count{
+    color: rgb(123, 105, 108);
+    margin-right: 5px;
+}
+
+.edit{
+    cursor: pointer;
+    color: lightslategray;
+}
+
+.nested{
+    align-items: center;
+    margin-left: 4rem;
+    margin-top: 10px;
+    display: flex;
+}
+
+.reply-input{
+    padding: 10px;
+}
+
+.submit{
+    margin-left: 1em;
+    padding:4px;
+    background-color: lightblue;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}

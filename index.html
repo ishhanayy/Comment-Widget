@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comment-widget</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="comment-container" class="comment-container">
+            <div class="all-comments">
+                <div class="card">
+                    <span class="text">
+                        first comment
+                    </span>
+                    <span class="reply">
+                        add reply
+                    </span>
+                    <span class="delete">delete</span>
+                    <span class="like" id="like" onclick="liking(this)">like:</span>
+                    <span id="like-count" class="like-count">0</span>
+                    <span class="edit" onclick="editing(this)">edit</span>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="nested">
+            <input type="text" placeholder="add text here" class="reply-input">
+            <button class="submit">submit</button>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
